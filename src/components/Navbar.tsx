@@ -30,6 +30,7 @@ const routeList: RouteProps[] = [
 ];
 
 export const Navbar = () => {
+	
 	const { isAuthenticated } = useKindeBrowserClient();
 
 	const { data } = useQuery({
